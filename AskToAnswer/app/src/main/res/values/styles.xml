@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+       <!--<item name="colorPrimaryDark">#388E3C</item> -->
+        <item name="colorPrimary">#234545</item>
+        <item name="colorAccent">#234545</item>
+        <item name="android:titleTextStyle">@style/custom_text_style</item>
+
+    </style>
+
+    <style name="custom_text_style">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="buttonStyle">
+        <item name="android:background">#234545</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+
+</resources>

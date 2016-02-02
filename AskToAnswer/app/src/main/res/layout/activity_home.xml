@@ -1,0 +1,53 @@
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        tools:context="com.example.arun.asktoanswer.HomeActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/buttonStyle"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/create_group"
+                android:id="@+id/createGroup"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/buttonStyle"
+                android:layout_marginRight="16dp"
+                android:id="@+id/retrieveGroups"
+                android:text="@string/find_groups"/>
+        </LinearLayout>
+
+        <TextView android:text="@string/group_info"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+
+            />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupListView"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </ListView>
+
+</LinearLayout>

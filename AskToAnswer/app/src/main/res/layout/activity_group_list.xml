@@ -1,0 +1,27 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.arun.asktoanswer.GroupListActivity">
+
+<TextView
+    style="@style/textViewStyle"
+    android:layout_width="match_parent"
+    android:text="@string/group_list_info"
+    />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupListView"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </ListView>
+
+</LinearLayout>

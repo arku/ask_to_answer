@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AskToAnswer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="login">Login now!</string>
+    <string name="signup_text">Don\'t have an account?Sign Up Now!</string>
+
+    <string name="signup">Sign up</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="find_groups">Find Groups</string>
+    <string name="create_group">Create Group</string>
+   <string name="group_info">Groups you\'re in</string>
+    <string name="group_list_info">Groups to check out</string>
+    <string name="enter_group">Enter Group</string>
+    <string name="group_name">Group name</string>
+
+
+    <string name="recent_questions">Recent Questions</string>
+    <string name="ask_question">Ask Question</string>
+    <string name="user_alert">You must be a member to view or add answers</string>
+    <string name="new_question">New Question</string>
+    <string name="add_new_question">Add new question</string>
+
+    <string name="cancel_button">Cancel</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="title_activity_group_list">GroupListActivity</string>
+    <string name="title_activity_create_group">CreateGroupActivity</string>
+    <string name="title_activity_display_group">DisplayGroupActivity</string>
+    <string name="title_activity_display_question">DisplayQuestionActivity</string>
+    <string name="title_activity_enter_group">EnterGroupActivity</string>
+    <string name="title_activity_create_question">CreateQuestion</string>
+</resources>
